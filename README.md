@@ -1,7 +1,7 @@
 # Valorant Tracker
 
 Valorant Tracker is a React + Vite web app that lets you search for a player by Riot ID and view their profile, current rank, and recent match data.
-Yes the UI is indeed made with AI. My purpose for making this was to get familiar with working with APIs. Had fun and learn a lot.
+Yes the UI is indeed made with AI. My purpose for making this was to get familiar with working with APIs. Had fun and learned a lot.
 
 ## Features
 
