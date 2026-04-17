@@ -1,8 +1,9 @@
+import { useCallback } from "react";
 import { fetchPlayer } from "../api/valorant";
 import { Link } from "react-router-dom";
 
 function Navbar({ onResult, onLoading, onError }) {
-	const handleSubmit = async (e) => {
+	const handleSubmit = useCallback(async (e) => {
 		e.preventDefault();
 
 		//getting name and tag from input
@@ -32,7 +33,7 @@ function Navbar({ onResult, onLoading, onError }) {
 		} finally {
 			onLoading(false);
 		}
-	};
+	}, []);
 	return (
 		<div className="navbar">
 			<div className="navbar-logo">LOGO</div>
